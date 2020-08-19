@@ -1,3 +1,4 @@
-import Slider from './Slider'
+import React from 'react'
+import SliderComponent from './Slider'
 
-export default { Slider }
+export const Slider = SliderComponent

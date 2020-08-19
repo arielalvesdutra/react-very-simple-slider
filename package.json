@@ -1,12 +1,14 @@
 {
   "name": "react-very-simple-slider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "email": "alves.lsn@gmail.com",
     "name": "Ariel Alves Dutra",
     "url": "https://arielalvesdutra.github.io"
   },
-  "dependencies": {
+  "types": "./src/index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
