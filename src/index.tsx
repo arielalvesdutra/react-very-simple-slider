@@ -1,4 +1,3 @@
-import React from 'react'
-import SliderComponent from './Slider'
+import Slider from './Slider'
 
-export const Slider = SliderComponent
+export { Slider }

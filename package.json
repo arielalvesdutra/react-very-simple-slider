@@ -1,12 +1,13 @@
 {
   "name": "react-very-simple-slider",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": {
     "email": "alves.lsn@gmail.com",
     "name": "Ariel Alves Dutra",
     "url": "https://arielalvesdutra.github.io"
   },
-  "types": "./src/index.d.ts",
+  "types": "lib",
+  "main": "lib/index.js",
   "dependencies": {},
   "peerDependencies": {
     "react": "^16.13.1",
@@ -24,7 +25,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "test": "react-scripts test"    
+    "build": "tsc",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -40,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "license": "MIT"
 }
