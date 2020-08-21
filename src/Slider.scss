@@ -3,6 +3,9 @@ $arrowButton-background-color: #aaa;
 .slider,
 .slider__content {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .slider__list {
@@ -10,6 +13,8 @@ $arrowButton-background-color: #aaa;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 .slider__content__arrow__button {
@@ -22,7 +27,8 @@ $arrowButton-background-color: #aaa;
   font-weight: bold;
   transition: all 0.3s;
   text-align: center;
-  vertical-align: middle
+  vertical-align: middle;
+  cursor: pointer;
 }
 
 .slider__content__arrow__button:hover {
@@ -49,6 +55,8 @@ $arrowButton-background-color: #aaa;
   align-items: center;
   color: $arrowButton-background-color;
   opacity: 1;
+  list-style: none;
+  padding: 0;
 }
 
 .slider__bullets__bullet {
