@@ -67,19 +67,20 @@ const Slider = (props: SliderProps) => {
   return (
     <div className="slider">
       <div className="slider__content">
-
-        <button
-          className="slider__content__arrow__button"
-          onClick={callPreviousSlide}
-          disabled={isPreviousSlideDisabled()}>
-          {`<`}
-        </button>
-        <button
-          className="slider__content__arrow__button slider__content__arrow__rightButton"
-          onClick={callNextSlide}
-          disabled={isNextSlideDisabled()}>
-          {`>`}
-        </button>
+        <div className="slider__content__arrow">
+          <button
+            className="slider__content__arrow__button"
+            onClick={callPreviousSlide}
+            disabled={isPreviousSlideDisabled()}>
+            {`<`}
+          </button>
+          <button
+            className="slider__content__arrow__button slider__content__arrow__rightButton"
+            onClick={callNextSlide}
+            disabled={isNextSlideDisabled()}>
+            {`>`}
+          </button>
+        </div>
 
         <ul className="slider__list">
           {slideItems && slideItems.map((item: any, key) => (
